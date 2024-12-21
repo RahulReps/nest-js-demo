@@ -31,9 +31,7 @@ This project is a basic User API built with NestJS. It includes CRUD operations 
 
 ### Create User
 
-- **URL**: 
-
-users
+- **URL**: `users`
 
 
 - **Method**: `POST`
@@ -55,9 +53,7 @@ users
 
 ### Get All Users
 
-- **URL**: 
-
-users
+- **URL**: `users`
 
 
 - **Method**: `GET`
