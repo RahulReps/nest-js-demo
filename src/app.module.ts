@@ -8,7 +8,7 @@ import { LoggingMiddleware } from './middlewares/logging.middleware';
 @Module({
   imports: [
     MongooseModule.forRoot(
-      'mongodb+srv://rahul_v:yehqqQ89q1FE2Ay3@cluster0.vhrkx.mongodb.net/user?retryWrites=true&w=majority&appName=Cluster0',
+      'mongodb://127.0.0.1:27017',
     ),
     UsersModule,
   ],
